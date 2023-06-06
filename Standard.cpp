@@ -126,7 +126,7 @@ void Atualize(vector<Produto> &esteVetor, int pos, Produto novoProduto){
 void Atualize(vector<Produto> &esteVetor, int pos, string nome, string descricao, float preco, int quantidade){
 	
 	Produto novoProduto(nome, descricao, preco, quantidade);
-	Atualize(esteVetor, novoProduto);
+	Atualize(esteVetor,pos, novoProduto);
 	
 }
 
