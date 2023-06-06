@@ -1,0 +1,164 @@
+Leite Condensado
+Leite Condesado Moca
+20.50
+68
+Kitute
+Restos de carne bovina
+4.69
+100
+Miojo
+Macarrao Instantaneo
+1.50
+100
+Chocolate
+Chocolate ao leite
+3.99
+50
+Cafe
+Cafe em graos
+10.99
+120
+Biscoito
+Biscoito de chocolate
+2.99
+80
+Arroz
+Arroz branco
+5.50
+200
+Feijao
+Feijao carioca
+4.00
+150
+Leite
+Leite integral
+3.20
+90
+Pao
+Pao frances
+0.50
+300
+Carne
+Carne bovina
+15.99
+40
+Cenoura
+Cenoura fresca
+1.20
+120
+Banana
+Banana prata
+2.50
+70
+Sabonete
+Sabonete em barra
+2.99
+200
+Pasta de dente
+Pasta de dente de menta
+4.50
+150
+Shampoo
+Shampoo de cabelo suave
+8.99
+100
+Condicionador
+Condicionador hidratante
+6.75
+97
+Cerveja
+Cerveja Pilsen
+2.49
+50
+Batata
+Batata inglesa
+1.99
+80
+Leite de Amendoas
+Leite vegetal de amendoas
+5.99
+50
+Camiseta
+Camiseta de algodao preta
+15.00
+80
+Arquivo de Pastas Suspensas
+Caixa de arquivo com pastas suspensas
+12.50
+30
+Abacaxi
+Abacaxi fresco
+3.99
+40
+Caderno
+Caderno espiral de 100 folhas
+2.99
+100
+Cafeteira
+Cafeteira eletrica programavel
+39.99
+20
+Mochila
+Mochila escolar resistente a agua
+29.99
+50
+Lapis de cor
+Conjunto de lapis de cor com 36 cores
+8.99
+100
+Pasta executiva
+Pasta executiva em couro sintetico
+19.99
+30
+Caneta esferografica
+Pacote com 10 canetas esferograficas azuis
+4.99
+200
+Leite em Po Integral
+Leite em po integral instantaneo
+12.99
+60
+Arroz Integral
+Arroz integral parboilizado
+6.49
+80
+Azeite de Oliva Extra Virgem
+Azeite de oliva extra virgem 500ml
+15.99
+40
+Feijao Preto
+Feijao preto cozido enlatado
+2.49
+100
+Macarrao Espaguete
+Macarrao espaguete tradicional
+1.99
+120
+Acucar
+Acucar refinado
+3.49
+100
+Oleo de Soja
+Oleo de soja refinado
+6.99
+60
+Farinha de Trigo
+Farinha de trigo tradicional
+2.99
+120
+Margarina
+Margarina 500g
+2.99
+100
+Sal Refinado
+Sal refinado 1kg
+1.49
+120
+Refrigerante
+Refrigerante de cola 2 litros
+4.49
+100
+Queijo Mussarela
+Queijo mussarela fatiado 200g
+6.99
+40
