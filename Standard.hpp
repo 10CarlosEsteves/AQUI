@@ -25,7 +25,7 @@ void Remova(vector<Produto>& esteVetor, int pos);
 //Esta função destina-se a atualizar valores presentes
 //no vector.
 void Atualize(vector<Produto> &esteVetor, int pos, Produto novoProduto);
-
+void Atualize(vector<Produto> &esteVetor, int pos, string nome, string descricao, float preco, int quantidade);
 //Esta função destina-se a printar o vector.
 void PrintVector(vector<Produto> &esteVetor);
 
