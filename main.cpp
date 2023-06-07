@@ -148,7 +148,7 @@ int main() {
 					if(escolha == 1){
 						Remova(Produtos, posicao);
 			        	cout << "______________________________________________________________________________________"<<endl;
-	        			cout << "                         SUCESSO AO ATUALIZAR O PRODUTO NA LISTA!                     "<<endl;
+	        			cout << "                         SUCESSO AO REMOVER O PRODUTO DA LISTA!                       "<<endl;
 					}
 				}
 
@@ -225,7 +225,7 @@ int main() {
 			//Importar carga de dados	
 			case 54:
 				cout << "Digite o nome do arquivo que deseja abrir: ";
-	        		getline(cin, nomeArquivo);
+	        	getline(cin, nomeArquivo);
 
 				Produtos = Carregar(nomeArquivo);
 		        break;
