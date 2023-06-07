@@ -26,14 +26,18 @@ void Remova(vector<Produto>& esteVetor, int pos);
 //no vector.
 void Atualize(vector<Produto> &esteVetor, int pos, Produto novoProduto);
 void Atualize(vector<Produto> &esteVetor, int pos, string nome, string descricao, float preco, int quantidade);
+
 //Esta função destina-se a printar o vector.
 void PrintVector(vector<Produto> &esteVetor);
 
-//Função Heapify dos HeapSort's.
-void Heapify(vector<Produto>& arr, int n, int i);
+//Função Heapify do HeapSort1.
+void Heapify1(vector<Produto>& arr, int n, int i);
 
 // Função principal para fazer a ordenação HeapSort em ordem crescente.
 void HeapSort1(vector<Produto>& arr);
+
+//Função Heapify do HeapSort2.
+void Heapify2(vector<Produto>& arr, int n, int i);
 
 // Função principal para fazer a ordenação HeapSort em ordem decrescente.
 void HeapSort2(vector<Produto>& arr);
@@ -49,7 +53,5 @@ void Bubblesort2(vector<Produto>& arr);
 
 //Algoritmo de busca binária com nomes inseridos e um vector de produtos ordenados.
 int BuscaBinaria(vector<Produto>& arr, string busca);
-
-
 
 #endif
