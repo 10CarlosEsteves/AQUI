@@ -131,6 +131,7 @@ void Atualize(vector<Produto> &esteVetor, int pos, string nome, string descricao
 }
 
 
+
 void PrintVector(vector<Produto> &esteVetor) {
     cout << "______________________________________________" << endl;
     cout << "                                              " <<endl;
@@ -154,7 +155,7 @@ void PrintVector(vector<Produto> &esteVetor) {
 }
 
 
-void Heapify(vector<Produto>& arr, int n, int i){
+void Heapify1(vector<Produto>& arr, int n, int i){
 	
     int maior = i; //Inicializa o maior como a raiz. Desde que usemos indexação baseada em 0.
     int esquerda = 2 * i + 1; // esquerda = 2*i + 1
@@ -173,7 +174,7 @@ void Heapify(vector<Produto>& arr, int n, int i){
         swap(arr[i], arr[maior]);
  
  		//Recursivamente, heapifique a sub-arvore afetada.
-        Heapify(arr, n, maior);
+        Heapify1(arr, n, maior);
     }
 }
 
@@ -184,14 +185,38 @@ void HeapSort1(vector<Produto>& arr){
 
     //Construa o heap (reorganize o vetor).
     for (int i = n / 2 - 1; i >= 0; i--)
-        Heapify(arr, n, i);
+        Heapify1(arr, n, i);
  	
  	//Um por um, extraia um elemento do heap.
     for (int i = n - 1; i >= 0; i--) {
         //Mova a raiz atual para o fim.
         swap(arr[0], arr[i]);
  		//Chame maximo heapify no heap reduzido.
-        Heapify(arr, i, 0);
+        Heapify1(arr, i, 0);
+    }
+}
+
+
+void Heapify2(vector<Produto>& arr, int n, int i){
+	
+    int maior = i; //Inicializa o maior como a raiz. Desde que usemos indexação baseada em 0.
+    int esquerda = 2 * i + 1; // esquerda = 2*i + 1
+    int direita = 2 * i + 2; // direita = 2*i + 2
+ 
+ 	//Se o nó da esquerda é maior que o da raiz.
+    if (esquerda < n && arr[esquerda].getPreco() < arr[maior].getPreco())
+        maior = esquerda;
+ 
+ 	//Se o nó da direita é o maior que maior atual.
+    if (direita < n && arr[direita].getPreco() < arr[maior].getPreco())
+        maior = direita;
+ 
+	//Se o maior não for a raiz
+    if (maior != i) {
+        swap(arr[i], arr[maior]);
+ 
+ 		//Recursivamente, heapifique a sub-arvore afetada.
+        Heapify2(arr, n, maior);
     }
 }
 
@@ -200,14 +225,14 @@ void HeapSort2(vector<Produto>& arr){
 	int n = arr.size();
     //Construa o heap (reorganize o vetor).
     for (int i = n / 2 - 1; i >= 0; i--)
-        Heapify(arr, n, i);
+        Heapify2(arr, n, i);
  	
  	//Um por um, extraia um elemento do heap.
     for (int i = n - 1; i >= 0; i--) {
         //Mova a raiz atual para o fim.
         swap(arr[0], arr[i]);
  		//Chame maximo heapify no heap reduzido.
-        Heapify(arr, i, 0);
+        Heapify2(arr, i, 0);
     }
 }
 
@@ -269,4 +294,3 @@ int BuscaBinaria(vector<Produto>& arr, string busca) {
         }
         return -1;
 }
-
